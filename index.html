@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    
+    <div class="wood"></div>
+
+    <nav class="navbar">
+        
+            <h1><li><a href="index.html">Basic Website</a></li></h1>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="cal.html">Calulate</a></li>
+            <li><a href="grade.html">Grade</a></li>
+            <li><a href="color.html">Color</a></li>
+
+        
+        
+    </nav>
+    
+    <div class="content">
+        <img src="1219953.jpg" alt="" >
+        <fieldset>
+        <legend >ข้อมูลส่วนต้ว</legend>
+        <form>
+            <table>
+                <tr>
+                    <td><label>คำนำหน้า :</label>
+                        <select>
+                        <option value="0">-</option>
+                        <option value="1">นาย</option>
+                        <option value="2">นาง</option>
+                        <option value="2">นางสาว</option>
+                    </select></td>
+
+                    <td><label>ชื่อจริง :</label>
+                    <input type="text" id="name"></td>
+                    
+                    <td><label>นามสกุล :</label>
+                    <input type="text"></td>
+
+            </table>
+            <br>
+            <label>อายุ :</label>
+            <input type="number" style="width:100px">
+            <br><br>
+            <tr>
+
+                <td><label>Email :</label>
+                    <input type="text">
+                </td>
+                <td><label>Password :</label>
+                    <input type="text">
+                </td>
+                
+            </tr>
+                
+        </form>
+
+        </fieldset>
+    </div>
+
+
+    <br><br>
+
+
+    <div class="footer">
+        <fieldset>
+            <legend>ความสนใจ</legend>
+            <form>
+                <!-- <table> -->
+                    <div class="items">
+                        <tr>
+                            <td><label>เขียนโปรแกรม</label>
+                                <input type="checkbox"></td>
+        
+                            <td><label>AI</label>
+                                <input type="checkbox"></td>
+                        </tr>
+                    </div>
+    
+                <!-- </table> -->
+                <br>
+                <label>ความคิดเห็น :</label><br>
+                <textarea  cols="60" rows="5"></textarea>
+                <br><br>
+                <button type="submit" >Submit</button>
+                <button type="reset">Reset</button>
+                
+    
+    
+            </form>
+        </fieldset>
+        
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
