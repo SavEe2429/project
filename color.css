@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+body {
+    background-color: #FFC48D;
+}
+
+
+li {
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    
+}
+
+.wood {
+    position:absolute;
+    background-color: #E89474;
+    height: 100%;
+    width: 180px;
+    z-index: -1;
+    margin-left:2.1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+    background-color: #B3754F;
+}
+
+.navbar li a{
+    color: #fff;
+    font-size: 24px;
+    margin: 0 1rem;
+    padding: 15px;
+    background-color: #E8C074;
+    border-radius: 30px;
+}
+
+.navbar li h1{
+    align-self: flex-start;
+    color: #fff;
+    font-size: 36px;
+}
+
+.color {
+    
+    background-color: #E89474;
+    width: 850px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.topic {
+    font-size: 24px;
+    margin: 10px;
+}
+
+
+.input {
+    margin: 15px;
+    
+}
+
+.topic .p{
+    font-size: 36px;
+    padding: 15px;
+    background-color: #b34e14;
+    width: fit-content;
+    margin: 15px auto;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.color p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.box {
+    cursor:pointer;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5,auto);
+    gap: 1rem;
+    margin: 2rem;
+    justify-content: center;
+
+}
+.box li {
+    color: rgb(255, 255, 255);
+}
+
+.answer {
+    display: flex;
+}
+
+
+.red ,.pink ,.black ,.blue ,.gray ,.green ,.orange ,.purple ,.white ,.yellow {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: rgb(245, 230, 198);
+
+}
+
+.box .red {
+    background-color: rgb(232, 45, 45);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: rgb(34, 93, 189);
+}
+
+.green {
+    background-color: rgb(20, 87, 20);
+}
+
+.yellow {
+    background-color: rgb(233, 221, 92);
+}
+
+.purple {
+    background-color: purple;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+}

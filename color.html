@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    
+    <div class="wood"></div>
+
+    <nav class="navbar">
+        
+        <h1><li><a href="index.html">Basic Website</a></li></h1>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="cal.html">Calulate</a></li>
+        <li><a href="grade.html">Grade</a></li>
+        <li><a href="color.html">Color</a></li>
+        
+        
+    </nav>
+
+    <div class="color">
+        
+        <div class="topic">
+            <div class="input">
+                <label >จำนวนรอบที่เล่น</label>
+                <p id="num" class="num"></p>
+                <!-- <input type="number" id="input">? -->
+                <!-- <button type="submit" onclick="round()">Summit</button> -->
+            </div>
+
+            <div class="answer">
+                <p class="p" id="answer">ถั่วต้มม : 0</p>
+                <p class="p" id="wrong">ลองใหม่น้า : 0</p>
+            </div>
+        </div>
+
+        <ul class="box">
+
+            <li class="red" id="1" onclick="red()">1</li>
+            
+            <li class="pink" id="2" onclick="pink()">2</li>
+
+            <li class="blue" id="3" onclick="blue()">3</li>
+
+            <li class="green" id="4" onclick="green()">4</li>
+
+            <li class="yellow" id="5" onclick="yellow()">5</li>
+
+            <li class="purple" id="6" onclick="purple()">6</li>
+
+            <li class="gray" id="7" onclick="gray()">7</li>
+
+            <li class="black" id="8" onclick="black()">8</li>
+
+            <li class="orange" id="9" onclick="orange()">9</li>
+
+            <li class="white" id="10" onclick="white()">10</li>
+
+        </ul>
+    <p>***เกมทายสี โดยกติกาคือ กดสีข้างบนให้ถูกต้อง<br>เมื่อกดทายสี จะปรากฏตัวเลขว่าถูกหรือไม่ขึ้นมา อีกทั้งสามารถดูได้ว่าเล่นไปแล้วกี่รอบได้ที่ใต้ล่าง <br>จำนวนรอบที่เล่นได้(บางทีก็ขึ้นบางทีก็ไม่ขึ้น)***</p>
+    </div>
+    
+
+    <script src="color.js"></script>
+
+</body>
+</html>
